@@ -1,31 +1,45 @@
 h1{
-  font-size:200%;
-    text-align:center;
-  background:darkblue;
+  
+  position: fixed;
+    left: 30%;
+    top: 0%;
+ font-size:200%;
+    background: darkblue;
   font-family: "Impact", Georgia, Bold;
   color: lightgreen;
+  text-align:center;
+
+    
 }
 
 h2{
   font-family: "Arial", Georgia, Bold;
 }
 
+
+h6{
+   position: fixed front;
+  
+}
 body{
   background:moccasin;
 }
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: 5% auto;
+  width:830px;
     padding: 10;
     overflow: hidden;
     background-color: LightSeaGreen;
   font-family: "Courier New", Georgia, Bold;
   font-size:110%;
+  
 }
 
 li {
     float: left;
+  margin: auto;
 }
 
 li a {
@@ -33,7 +47,7 @@ li a {
     color: navy;
     text-align: center;
     padding: 20px 16px;
-   
+   margin: auto;
 }
 
 
