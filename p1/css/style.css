@@ -1,67 +1,44 @@
-h1{
-  
-  position: fixed;
-    left: 25%;
-    top: 0;
- font-size:250%;
-    background: white;
-  font-family: "Impact", Georgia, Bold;
-  color: brown;
-  text-align:center;
-  border-radius:10px;
 
-    
+
+body{
+  background-color: LightYellow;
 }
+
+header{
+  font-family: "Impact", Georgia, Bold;
+  font-size:500%;
+  color: MidnightBlue;
+  background-color: Khaki;
+  text-decoration: underline;
+  text-align: center;
+}
+
 
 h2{
-  font-family: "Arial", Georgia, Bold;
+   font-family: "Papyrus", Times, serif;
+  color: DarkSlateGray;
 }
 
-
-h6{
-   position: fixed;
-}
-body{
-  background:gray;
+p{
+  color: LightSeaGreen;
+  font-family: "Arial", helvetica, sans-serif;
+  font-size:150%
 }
 
-ul {
-    list-style-type: none;
-    margin: 0 auto;
-  width:850px;
-    padding: 10;
-    overflow: hidden;
-    background-color: Black;
-  font-family: "Arial Black", Georgia, Bold;
-  font-size:130%;
-  border-radius:150px;
-  
+summary{
+  color: DarkGreen;
+  font-size:230%;
+     font-family: "Copperplate", Georgia, Bold;
 }
 
-li {
-    float: left;
-  margin: auto;
+header3{
+  font-family: "Courier New", Times, serif;
+  font-size:100%;
+  color: brown;
+  background-color: AliceBlue;
+  text-decoration: underline;
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 20px 16px;
-   margin: auto;
-  border-radius:150px;
-}
+    
 
 
-li a:hover {
-    background-color: lightgray;
-}
-.active {
-    background-color: black;
-}
-
-h7{
-  text-align: center;
-  font-size:200%;
-  font-family: "Impact", Georgia, Bold
-}

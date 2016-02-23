@@ -1,60 +1,44 @@
 h1{
-  
-  position: fixed;
-    left: 25%;
-    top: 0;
- font-size:250%;
-    background: white;
+  font-size:200%;
+    text-align:center;
+  background:darkblue;
   font-family: "Impact", Georgia, Bold;
-  color: brown;
-  text-align:center;
-  border-radius:10px;
-
-    
+  color: lightgreen;
 }
 
 h2{
   font-family: "Arial", Georgia, Bold;
 }
 
-
-h6{
-   position: fixed;
-}
 body{
-  background:gray;
+  background:moccasin;
 }
 
 ul {
     list-style-type: none;
-    margin: 0 auto;
-  width:850px;
+    margin: 0;
     padding: 10;
     overflow: hidden;
-    background-color: Black;
-  font-family: "Arial Black", Georgia, Bold;
-  font-size:130%;
-  border-radius:150px;
-  
+    background-color: LightSeaGreen;
+  font-family: "Courier New", Georgia, Bold;
+  font-size:110%;
 }
 
 li {
     float: left;
-  margin: auto;
 }
 
 li a {
     display: block;
-    color: white;
+    color: navy;
     text-align: center;
     padding: 20px 16px;
-   margin: auto;
-  border-radius:150px;
+   
 }
 
 
 li a:hover {
-    background-color: lightgray;
+    background-color: darkgreen;
 }
 .active {
     background-color: black;
